@@ -12,7 +12,7 @@ This project demonstrates the following attempts to violate SignPath policies an
 
 * This step selects the appropriate [signing policy] depending on the branch name. The actual branch must match the branch condition of the selected signing policy. The [`attempt-signing-release`] branch demonstrates how SignPath will detect incorrect attempts.
 * The [`release/malicious-dll`] branch demonstrates how SignPath will detect content-level violations of the [artifact configuration].
-* The [`release/no-branch-rulesets`] branch demonstrates how SignPath can be configured to require certain branch ruleset rules.
+* The `release/no-branch-rulesets` branch demonstrates how SignPath can be configured to require certain branch ruleset rules.
 
 ## Configuration
 
